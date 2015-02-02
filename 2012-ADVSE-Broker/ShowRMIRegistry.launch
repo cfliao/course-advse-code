@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.sump.showrmiregistry.ShowRMIRegistry"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="2012-ADVSE-Broker"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.sump.showrmiregistry.defaultregistry=rmi://localhost:1099"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/2012-ADVSE-Broker"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+</launchConfiguration>

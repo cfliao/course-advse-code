@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="cxf-ws-template" basedir="." default="wsdl2java">
+
+	<property name="wsdl-path" value="CalculatorImplService.wsdl" />
+
+	<path id="cxf.classpath">
+		<fileset dir="lib" includes="**/*.jar" />
+	</path>
+
+	<target name="wsdl2java">
+		<java classname="org.apache.cxf.tools.wsdlto.WSDLToJava">
+			<arg value="-server" />
+			<arg value="-client" />
+			<arg value="-impl" />
+			<arg value="-d" />
+			<arg value="src" />
+			<arg value="${wsdl-path}" />
+			<classpath refid="cxf.classpath" />
+		</java>
+	</target>
+	
+</project>
